@@ -32,4 +32,11 @@ public class Author extends Person implements BookDisplayable{
          System.out.println(book.getBookName());
       }
    }
+
+   @Override
+   public String toString() {
+      return "Author{" +
+              "books=" + books +
+              '}';
+   }
 }

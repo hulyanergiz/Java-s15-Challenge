@@ -95,10 +95,7 @@ public class Book {
                 "bookID='" + bookID + '\'' +
                 ", bookType=" + bookType +
                 ", bookName='" + bookName + '\'' +
-                ", author=" + author +
-                ", price=" + price +
-                ", status='" + status + '\'' +
-                ", dateOfPurchase=" + dateOfPurchase +
+                ", author=" + author.getName() +
                 '}';
     }
 }
